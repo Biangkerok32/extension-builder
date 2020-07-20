@@ -28,7 +28,7 @@ jobs:
       - name: clone
         run: git clone https://github.com/Biangkerok32/extension-builder.git
       - name: cd extension-builder
-        run: cd /path/to/extension-builder/
+        run: cd extension-builder
       - name: update
         run: git pull
       - name: stop
