@@ -25,7 +25,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+      - name: clone
+        run: git clone https://github.com/Biangkerok32/extension-builder.git
       - name: cd extension-builder
         run: cd /path/to/extension-builder/
       - name: update
